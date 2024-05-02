@@ -1,0 +1,102 @@
+/* ----------- GENERAL */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+  
+
+
+body {
+    width: 80vw;
+    align-content: center;
+    
+}
+
+body {
+    display: flex;
+}
+
+/* MENU ------------------------ */
+
+.menu {
+    background-color: #ffffff;
+    margin: 10px;
+}
+
+.logo {
+    padding: 12px;
+    margin-bottom: 10px;
+}
+
+.navbar li {
+    display: flex;
+    align-items: center;
+    padding: 12px 125px 12px 12px;
+}
+
+.navbar p {
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+
+/* PROFILE ------------------------- */
+
+.profile {
+    background-color: #FAFAFA;
+    padding: 60px;
+}
+
+.profile-pic {
+    margin-right: 80px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.profile-info {
+    margin: 14px 0px 14px 0px;
+}
+
+.title , .data {
+    margin-bottom: 14px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+}
+
+.follow {
+    color: #ffffff;
+    background-color: #0095F6;
+    padding: 6px 24px 6px 24px;
+    margin-left: 20px;
+    align-self: center
+}
+
+.icon {
+    padding: 8px;
+    margin-left: 10px;
+}
+
+.data {
+    margin: 20px 0 20px 0px;
+}
+
+.data li{
+    list-style: none;
+    display: inline;
+    margin-right: 40px;
+}
+
+.number {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
