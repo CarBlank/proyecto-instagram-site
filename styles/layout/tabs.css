@@ -1,0 +1,90 @@
+.tabs {
+    border-top: 1px solid #DBDBDB;
+    display: flex;
+    justify-content: center;
+}
+
+.tabs a {
+    display: flex;
+    justify-content: center;
+}
+
+.tabs a:hover {
+    border-top: 1px solid #262626;
+    position: relative;
+    top: -1px;
+}
+
+.active {
+    border-top: 1px solid #262626;
+    position: relative;
+    top: -1px;
+}
+
+.active .text{
+    color: #262626;
+}
+
+.text {
+    color: #8E8E8E;
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: 6px;
+    padding: 17px 40px 17px 0px;  
+}
+
+.text:hover {
+    color: #262626;
+}
+
+#hidden {
+    display: none;
+}
+
+.tabs a:hover > #hidden {
+    display: inline;
+    position: relative;
+    
+    top: 1px;
+}
+
+.tabs a:hover > #hidden-hover {
+    display: none;
+}
+
+/* 
+img#hidden:hover {
+    
+} */
+
+/* .tabs p:hover {
+    color: #262626;
+} */
+
+/* 
+.tabs li{
+    list-style: none;
+    display: flex;
+    /* display: inline;
+    padding: 17px 60px 17px 0px;
+    background-color: antiquewhite; */
+
+/* .tabs li {
+        display: flex;
+        align-items: center;
+        padding: 17px 60px 17px 0px;
+    }
+    
+    .tabs p {
+        margin-left: 20px;
+        font-size: 12px;
+    } */
+/* .tabs span {
+    font-size: 12px;
+    margin-left: 6px;
+}
+
+.tabs img {
+    color: aqua; 
+}
+ */
